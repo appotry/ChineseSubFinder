@@ -2,12 +2,7 @@ package TestCode
 
 import "testing"
 
-func TestDownloadTest(t *testing.T) {
+func TestProcess(t *testing.T) {
 
-	err := DownloadTest()
-	if err != nil {
-		t.Fatal(err)
-	}
-
-	select {}
+	Process()
 }
